@@ -1,2 +1,2 @@
 # DIC Crowd Loading
- Digital Image Correlation (DIC) algorithms to estimate crowd loading due to jumping.
+Programs to run Digital Image Correlation (DIC) to estimate the vertical motion and the inertial load of a jumping crowd. 
