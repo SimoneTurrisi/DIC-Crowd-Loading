@@ -1,0 +1,4 @@
+displacement_x 0.001
+displacement_y 0.001
+vsg_strain_xx 0.001
+vsg_strain_yy 0.001
