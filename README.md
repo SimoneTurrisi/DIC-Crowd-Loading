@@ -1,2 +1,3 @@
 # DIC Crowd Loading
-Programs to run Digital Image Correlation (DIC) to estimate the vertical motion and the inertial load of a jumping crowd. 
+Run Digital Image Correlation (DIC) to estimate the vertical motion and the inertial load of a jumping crowd. 
+The programs are implemented in MATLAB and make use of the tool 'Digital Image Correlation Engine (DICe)' as external module to run the analysis. For more info about DICe see https://github.com/dicengine. 
