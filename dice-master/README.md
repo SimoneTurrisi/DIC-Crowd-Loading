@@ -1,4 +1,4 @@
-DICe
+Digital Image Correlation Engine (DICe)
 ====
 
 ### Pushing DIC technology to new levels, together
