@@ -21,7 +21,7 @@ step_dic = str2double(answer{2,1}); %DIC step size as specified in 'input.xml'
 mkdir('solution') % folder to store DICe results (.txt)
 mkdir('mat files') % folder to store results (.mat) --> 
 
-for nc = 1
+for nc = 1:n_im
 
 % Save images in folder required by DICe analysis
 inputfold = 'Input images'; % folder containing original images to be analysed

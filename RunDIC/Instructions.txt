@@ -13,10 +13,11 @@ FILES AND FOLDERS DESCRIPTION:
 
 MAIN STEPS TO RUN:
 1) Move to the folder 'RunDIC';
-2) Run the program 'rename_images_DICe' to rename and save the images to process according to DICe notation;
+2) (Optional) Run the program 'rename_images_DICe' to rename and save the images to process according to the DICe notation;
 3) Run the main program 'run_incremental_DIC.m' to run incremental correlation between image i and i-1
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 RESULTS:
-The main program creates two folders, called 'solution' and 'mat files', where it respectively saves separate '.txt' and '.mat' files
-containing DIC results. For more info about the estimated variables see DICe documentation.  
+The main program automatically creates two folders, called 'solution' and 'mat files', where it respectively saves separate '.txt' and '.mat' files
+containing DIC results. For more info about the estimated variables see DICe documentation. 
+ 
