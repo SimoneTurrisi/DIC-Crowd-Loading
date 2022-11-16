@@ -1,0 +1,23 @@
+
+% Instructions to call and run DICe on MATLAB
+
+------------------------------------------------------------------------------------------------------------------------------------------
+FILES AND FOLDERS DESCRIPTION:
+
+'input.xml': specify the params for DIC analysis (subset,step size), image names and output folders;
+'params.xml': eventually modify DIC params settings;
+'DICe_results_reader_complete.m' --> function to save outputs from DICe;
+'Input images': folder which contains the images to analyse;
+'DICe images': the main program will write there at each iteration the reference and deformed images for incremental analysis;
+------------------------------------------------------------------------------------------------------------------------------------------
+
+MAIN STEPS TO RUN:
+1) Move to the folder 'RunDIC';
+2) (Optional) Run the program 'rename_images_DICe' to rename and save the images to process according to the DICe notation;
+3) Run the main program 'run_incremental_DIC.m' to run incremental correlation between image i and i-1
+
+------------------------------------------------------------------------------------------------------------------------------------------
+RESULTS:
+The main program automatically creates two folders, called 'solution' and 'mat files', where it respectively saves separate '.txt' and '.mat' files
+containing DIC results. For more info about the estimated variables see DICe documentation. 
+ 

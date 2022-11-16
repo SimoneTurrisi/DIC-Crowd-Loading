@@ -1,0 +1,32 @@
+***
+*** Digital Image Correlation Engine (DICe), Copyright 2015 National Technology & Engineering Solutions of Sandia, LLC (NTESS)
+***
+*** Reference image: ./images/obstruction_01.tif 
+*** Deformed image: ./images/obstruction_01.tif 
+*** DIC method : local 
+*** Correlation method: ZNSSD
+*** Interpolation method: BILINEAR
+*** Image gradient method: FINITE_DIFFERENCE
+*** Optimization method: SIMPLEX
+*** Projection method: DISPLACEMENT_BASED
+*** Guess initialization method: USE_FIELD_VALUES
+*** Seed location: N/A
+*** Shape functions: Translation (u,v) Rotation (theta) 
+*** Incremental correlation: false
+*** Subset size: -1
+*** Step size: x -1 y -1 (-1 implies not regular grid)
+*** Strain window: N/A
+*** Coordinates given with (0,0) as upper left corner of image, x positive right, y positive down
+***
+FRAME,COORDINATE_X,COORDINATE_Y,ROTATION_Z,SIGMA,GAMMA
+1,1.0000E+02,1.0000E+02,-3.4903E-02,1.1405E-03,5.1816E-03
+2,1.0000E+02,1.0000E+02,-6.9705E-02,1.1379E-03,5.4961E-03
+3,1.0000E+02,1.0000E+02,-1.0465E-01,1.1632E-03,5.0466E-03
+4,1.0000E+02,1.0000E+02,-1.3963E-01,1.1682E-03,5.2030E-03
+5,1.0000E+02,1.0000E+02,-1.7451E-01,1.1985E-03,5.2539E-03
+6,1.0000E+02,1.0000E+02,-2.0939E-01,1.2146E-03,7.8454E-03
+7,1.0000E+02,1.0000E+02,-2.4357E-01,1.2515E-03,1.7894E-02
+8,1.0000E+02,1.0000E+02,-2.7937E-01,1.2475E-03,3.2979E-02
+9,1.0000E+02,1.0000E+02,-3.1411E-01,1.2471E-03,5.2822E-02
+10,1.0000E+02,1.0000E+02,-3.4875E-01,1.2142E-03,7.2045E-02
+11,1.0000E+02,1.0000E+02,-3.8412E-01,1.2237E-03,9.0007E-02
